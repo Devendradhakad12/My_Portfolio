@@ -6,7 +6,6 @@ import {
   github,
   resume,
   resumeIcon,
-  mmskyresume,
   emailIcon,
 } from "../constants/index";
 import Typewriter from "typewriter-effect";

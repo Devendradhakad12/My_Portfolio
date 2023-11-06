@@ -1,24 +1,11 @@
 import close from "../assets/close.svg";
 import menu from "../assets/menu.svg";
 import bg1 from "../assets/bg1.png";
-import github from "../assets/github.webp";
 import github2 from "../assets/github.png";
-import linkedin from "../assets/linkedin.webp";
 import resume from "../assets/Devendra Dhakad CV.pdf";
- 
-import resumeIcon from "../assets/resume-g9ea3443c7_1920.png";
-import emailIcon from "../assets/emailicons-g3b720d92e_1280.png";
 import web from "../assets/web.png";
 import frontend from "../assets/frontend.png";
 import backend from "../assets/backend.png";
-import html from "../assets/html5-g25407fbd1_1280.png";
-import css from "../assets/css3-g6e9bf867d_1280.png";
-import js from "../assets/js.webp";
-import react from "../assets/reactjs.webp";
-import nodejs from "../assets/nodejs0-removebg-preview.png";
-import mongoDb from "../assets/mongoDb.webp";
-import nextjs from "../assets/nextjs-boilerplate-logo.ico"
-import typescript from "../assets/ts-removebg-preview.png"
 import boy from "../assets/boy-g29910d274_1280.png";
 import dev from "../assets/developer.png";
 import codsoft from '../assets/cod.png'
@@ -26,7 +13,25 @@ import songWave from '../assets/songWave.jpg'
 import todoList from '../assets/new-todo.png'
 import crypto from '../assets/crypto.png'
 import visitIcon from '../assets/visit-icon-copy.jpg'
-import reduxToolKit from '../assets/reduxToolKit.png'
+
+
+// social media and resume icon
+const linkedin = "https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256377/portfolio/hjaphgc72keq2lsycade.webp";
+const github = "https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256289/portfolio/sdof20tby8dkwf7p0dyy.webp";
+const emailIcon = "https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256357/portfolio/koc8ebiioptwrleiywaw.png";
+const resumeIcon =  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256399/portfolio/pcc6jftwnbkeeut9i6c3.png";
+
+// skills icon
+const html = "https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256345/portfolio/hs5stk2sbvd5maimdkps.png";
+const css = "https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256342/portfolio/fj28pkjbjaj2cadhrf2p.png";
+const js = "https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256388/portfolio/idltbgdctywmvbmtz5ho.webp";
+const react = "https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256387/portfolio/khdwulnbruvceunltzvn.webp";
+const nodejs = "https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256382/portfolio/w5xhqh7uqisrpe7qky8i.png";
+const mongoDb = "https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256376/portfolio/swepocvusk1dsemqzbwr.webp";
+const nextjs =  "https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256398/portfolio/ma8dftpjqf5jebi66zjf.ico"
+const typescript = "https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256393/portfolio/dghpbqzxmlhjxlguflvp.png"
+const reduxToolKit = 'https://res.cloudinary.com/dvkfio4zq/image/upload/v1699256390/portfolio/whsroqpqxilola0rvyjq.png'
+
 
 
  
@@ -83,15 +88,15 @@ export let techImages = [
   },
   {
     img: nextjs,
-    id: 5,
-  },
-  {
-    img: typescript,
     id: 7,
   },
   {
-    img: reduxToolKit,
+    img: typescript,
     id: 8,
+  },
+  {
+    img: reduxToolKit,
+    id: 9,
   },
 ];
 
