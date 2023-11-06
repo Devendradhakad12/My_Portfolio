@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../constants/styles";
-import { projects, github2 } from "../constants/index";
+import { projects, github2, visitIcon } from "../constants/index";
 import { Tilt } from "react-tilt";
 function Projects() {
   return (
@@ -97,7 +97,7 @@ const ProjectsCard = ({
             {description}
           </p>
 
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-2 items-center flex-wrap">
             {tags.map((e) => {
               return (
                 <p key={e.name} className={e.color}>
@@ -108,6 +108,13 @@ const ProjectsCard = ({
             <a href={source_code_link} target="_blank">
               <img
                 src={github2}
+                alt="github"
+                className="w-[35px] rounded-full ml-2"
+              />
+            </a>
+            <a href={production_link} target="_blank">
+              <img
+                src={visitIcon}
                 alt="github"
                 className="w-[35px] rounded-full ml-2"
               />

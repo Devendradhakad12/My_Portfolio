@@ -41,15 +41,15 @@ function Wido() {
             {" "}
             <p className="sm:text-[1.2rem] text-[1rem] sm:p-0 pl-5 pr-5 pb-5 tracking-wider leading-[30px] sm:inline hidden">
               A passionate Full Stack Web Developer having an experience of
-              bulding Web Applictions with <b>JavaScript</b>, <b>ReactJs</b>,{" "}
-              <b>NodeJs</b>,<b>TailwindCss</b> and some other Cool libraries and
+              bulding Web Applictions with <b>JavaScript</b>, <b>TypeScript</b>, <b>ReactJs</b>, <b>NextJs</b>, 
+             {" "}  <b>NodeJs</b>, <b>Express</b>, <b>Mongoose</b>, <b>MongoDB</b>, <b>TailwindCss</b> and some other Cool libraries and
               frameworks. 🚀
             </p>
             <br />
-            <p className="sm:hidden inline"> I'm a Web Developer,</p> I have a
+            <p className="sm:hidden inline"> I'm a Web Developer, I have a
             solid understanding of HTML, CSS and JavaScript and am also capable
-            to developing Fullstack web apps using ReactJs, NodeJS, ExpressJS
-            and MongoDB.
+            to developing Fullstack web apps using <b>JavaScript</b>, <b>TypeScript</b>, <b>ReactJs</b>, <b>NextJs</b>, 
+             {" "}  <b>NodeJs</b>, <b>Express</b>, <b>Mongoose</b> ,<b>MongoDB</b>, <b>TailwindCss</b>.</p>
           </motion.div>
 
           <div className="mt-20 flex flex-wrap gap-10 ">

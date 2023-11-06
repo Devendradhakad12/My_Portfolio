@@ -5,7 +5,7 @@ import github from "../assets/github.webp";
 import github2 from "../assets/github.png";
 import linkedin from "../assets/linkedin.webp";
 import resume from "../assets/Devendra Dhakad CV.pdf";
-import mmskyresume from "../assets/MMSKY Resume Devendra Dhakad.pdf";
+ 
 import resumeIcon from "../assets/resume-g9ea3443c7_1920.png";
 import emailIcon from "../assets/emailicons-g3b720d92e_1280.png";
 import web from "../assets/web.png";
@@ -17,18 +17,21 @@ import js from "../assets/js.webp";
 import react from "../assets/reactjs.webp";
 import nodejs from "../assets/nodejs0-removebg-preview.png";
 import mongoDb from "../assets/mongoDb.webp";
+import nextjs from "../assets/nextjs-boilerplate-logo.ico"
+import typescript from "../assets/ts-removebg-preview.png"
 import boy from "../assets/boy-g29910d274_1280.png";
 import dev from "../assets/developer.png";
 import codsoft from '../assets/cod.png'
 import songWave from '../assets/songWave.jpg'
-import todoList from '../assets/todoList.png'
+import todoList from '../assets/new-todo.png'
 import crypto from '../assets/crypto.png'
+import visitIcon from '../assets/visit-icon-copy.jpg'
+import reduxToolKit from '../assets/reduxToolKit.png'
 
 
  
 export {
   crypto,
-  mmskyresume,
   codsoft,
   boy,
   dev,
@@ -45,8 +48,12 @@ export {
   js,
   react,
   nodejs,
+  typescript,
   mongoDb,
-  github2
+  nextjs,
+  github2,
+  visitIcon,
+  reduxToolKit
 };
 
 export let techImages = [
@@ -74,7 +81,35 @@ export let techImages = [
     img: mongoDb,
     id: 6,
   },
+  {
+    img: nextjs,
+    id: 5,
+  },
+  {
+    img: typescript,
+    id: 7,
+  },
+  {
+    img: reduxToolKit,
+    id: 8,
+  },
 ];
+
+
+export const experiences = [
+  /*   {
+      title: "Web Developer - Internship",
+      company_name: "CodSoft",
+      icon: codsoft,
+      iconBg: "#9deef2",
+      date: "25 July 2023 - 25 August 2023",
+      points: [
+        "Developing Full Stack Web Application using Html, CSS, JavaScript, React.js, Node.Js and other related technologies.",
+       
+      ],
+    }, */
+    
+  ];
 
 export let navLinks = [
   {
@@ -82,8 +117,8 @@ export let navLinks = [
     title: "About",
   },
   {
-    id: "experience",
-    title: "Experience",
+    id: experiences.length ?  "experience" :"",
+    title:experiences.length ? "Experience" :"",
   },
   {
     id: "skills",
@@ -100,6 +135,7 @@ export let navLinks = [
   },
 ];
 
+
 export const services = [
   {
     title: "Web Developer",
@@ -115,22 +151,59 @@ export const services = [
   },
 ];
 
-export const experiences = [
-  {
-    title: "Web Developer - Internship",
-    company_name: "CodSoft",
-    icon: codsoft,
-    iconBg: "#9deef2",
-    date: "25 July 2023 - 25 August 2023",
-    points: [
-      "Developing Full Stack Web Application using Html, CSS, JavaScript, React.js, Node.Js and other related technologies.",
-     
-    ],
-  },
-  
-];
+
 
 export const projects = [
+  {
+    name: "Todo List App",
+    description:
+      "The Todo List Web App is a simple and efficient application designed and developed using Next.js, TypeScript, MongoDB and TailwindCSS. Its main purpose is to help users organize their tasks  in a convenient and intuitive manner.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "text-green-500",
+      },
+      {
+        name: "MongoDB",
+        color: "text-red-500",
+      },
+      {
+        name: "TypeScript",
+        color: "text-blue-500",  
+      },
+      {
+        name: "Mongoose",
+        color: "text-green-500",  
+      },
+      {
+        name: "TailwindCSS",
+        color: "text-sky-500",  
+      },
+    ],
+    image: todoList,
+    source_code_link: "https://github.com/Devendradhakad12/todolist-app-next-ts.git",
+    production_link:'https://todolist-app-next-ts.vercel.app/'
+  },
+ 
+  {
+    name: "Crypto Coin Price Tracking",
+    description:
+      "Web application that enables users to Track Price of Crypto Coins, view Real-Time price updates , Charts and Graphs of Crypto Coins. Click on image to go to Crypto Coin Website.",
+    tags: [
+      {
+        name: "React.js",
+        color: "text-green-500",
+      },
+      {
+        name: "chakraUi",
+        color: "text-red-500", 
+      },
+    
+    ],
+    image: crypto,
+    source_code_link: "https://github.com/Devendradhakad12/CryptoCoin_PriceTracking.git",
+    production_link:'https://crypto-coin-price-tracking.vercel.app '
+  },
   
   {
     name: "MusicApp",
@@ -154,47 +227,7 @@ export const projects = [
     source_code_link: "https://github.com/Devendradhakad12/SongWave_Music_App.git",
     production_link:'https://song-wave-music-app.vercel.app'
   },
-  {
-    name: "Crypto Coin Price Tracking",
-    description:
-      "Web application that enables users to Track Price of Crypto Coins, view Real-Time price updates , Charts and Graphs of Crypto Coins. Click on image to go to Crypto Coin Website.",
-    tags: [
-      {
-        name: "React.js",
-        color: "text-green-500",
-      },
-      {
-        name: "chakraUi",
-        color: "text-red-500",
-      },
-    
-    ],
-    image: crypto,
-    source_code_link: "https://github.com/Devendradhakad12/CryptoCoin_PriceTracking.git",
-    production_link:'https://crypto-coin-price-tracking.vercel.app '
-  },
-  {
-    name: "Todo List App",
-    description:
-      "The Todo List Web App is a simple and efficient application designed and developed using HTML, CSS, and JavaScript. Its main purpose is to help users organize their tasks  in a convenient and intuitive manner.",
-    tags: [
-      {
-        name: "HTML5",
-        color: "text-green-500",
-      },
-      {
-        name: "CSS3",
-        color: "text-red-500",
-      },
-      {
-        name: "JavaScript",
-        color: "text-blue-500",  
-      },
-    ],
-    image: todoList,
-    source_code_link: "https://github.com/Devendradhakad12/Todo_List_App.git",
-    production_link:'https://todo-list-app-beta-two.vercel.app'
-  },
- 
+
+
   
 ];

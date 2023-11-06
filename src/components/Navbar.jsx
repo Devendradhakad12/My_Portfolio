@@ -11,7 +11,7 @@ function Navbar() {
       <nav className=" w-full bg-slate-900 sm:h-[100px] h-[70px] flex sm:justify-between sm:px-20 px-8 items-center sticky top-0 z-[10]">
         {/* logo */}
         <div>
-          <img src={img} alt="logo" className="sm:w-[70px] w-[50px]  drop-shadow-3xl" />
+           <img src={img} alt="logo" className="sm:w-[70px] w-[50px]  drop-shadow-3xl" />
         </div>
         <div>
           {/* menu - navlinks */}

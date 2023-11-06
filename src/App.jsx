@@ -10,6 +10,7 @@ import Experience from "./components/Experience";
 
 import { Toaster } from "react-hot-toast";
 import Stars from "./components/canvas/Stars";
+import { experiences } from "./constants";
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
         <About />
         <div className="relative z-[-1] bg-slate-950">
           <Wido />
-          <Experience />
+          {
+            experiences.length &&   <Experience />
+          }
+       
         </div>
         <Skills />
         <div className="relative z-0 bg-slate-950">

@@ -36,12 +36,14 @@ function About() {
               options={{
                 strings: [
                   "Web Developer !",
-                  "HTML 5",
-                  "CSS 3",
-                  "JavaScript",
-                  "TailwindCss",
+                  "NextJs",
+                  "TypeScript",
                   "ReactJs",
                   "NodeJs",
+                  "JavaScript",
+                  "HTML 5",
+                  "CSS 3",
+                  "TailwindCss",
                 ],
                 autoStart: true,
                 loop: true,
@@ -53,8 +55,8 @@ function About() {
 
           <p className="sm:text-[1.2rem] text-[1rem] sm:p-0 pl-5 pr-5 pb-5 tracking-wider leading-[30px] sm:hidden inline text-stone-300">
             A passionate Full Stack Web Developer having an experience of
-            bulding Web Applictions with <b>JavaScript</b>, <b>ReactJs</b>,{" "}
-            <b>NodeJs</b>,<b>TailwindCss</b> and some othe Cool libraries and
+            bulding Web Applictions with <b>JavaScript</b>, <b>TypeScript</b>, <b>ReactJs</b>, <b>NextJs</b>,{" "}
+            <b>NodeJs</b>, <b>Express</b>, <b>Mongoose</b>, <b>MongoDB</b>, <b>TailwindCss</b> and some othe Cool libraries and
             frameworks. 🚀
           </p>
 
@@ -94,13 +96,7 @@ function About() {
                 className="sm:w-[80px] w-[60px] rotate-[25deg] hover:scale-[1.2] transition-all duration-[1]"
               />
             </a>
-            <a href={mmskyresume} target="_blank">
-              <img
-                src={resumeIcon}
-                alt="resume"
-                className="sm:w-[80px] w-[60px] rotate-[25deg] hover:scale-[1.2] transition-all duration-[1]"
-              />
-            </a>
+           
           </div>
         </div>
 
