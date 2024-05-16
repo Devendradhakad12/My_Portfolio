@@ -1,7 +1,7 @@
-import React,{useCallback} from 'react'
-import { StarsParticles } from './StarsParticles';
+import React, { useCallback } from 'react';
 import Particles from 'react-tsparticles';
 import { loadSlim } from 'tsparticles-slim';
+import { StarsParticles } from './StarsParticles';
  
 function Stars() {
     const particlesInit = useCallback(async engine => {

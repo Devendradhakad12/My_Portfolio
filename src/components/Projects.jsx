@@ -80,24 +80,28 @@ const ProjectsCard = ({
             delay: 0.14 * index,
           },
         }}
-        className=" w-full bg-gradient-to-r from-violet-800 to-fuchsia-500  p-[1px] rounded-[20px] shadow-card m-auto  "
+        className=" w-full    bg-gradient-to-r from-violet-800 to-fuchsia-500  p-[1px] rounded-[20px] shadow-card m-auto  "
       >
-        <div className="w-full bg-[rgb(21,16,48)] rounded-[20px] py-5 px-5 min-h-[280px] ">
-          <a href={production_link} target="_blank">
-            <img
-              src={image}
-              alt=""
-              className=" w-[100%] h-[60%] object-contain rounded-[20px] "
-            />
-          </a>
-          <h3 className=" text-white text-[20px] font-[700]  tracking-wider ml-3 mt-3">
-            {name}
-          </h3>
-          <p className=" text-slate-300 text-[15px] font-[400] mb-3 tracking-wider ml-3 mt-3">
-            {description}
-          </p>
+        <div className="w-full relative sm:h-[500px] h-fit  bg-[rgb(21,16,48)] rounded-[20px] py-5 px-5  flex flex-col items-center ">
+          <div className="rounded-xl h-[40%] ">
+            <a href={production_link} target="_blank">
+              <img
+                src={image}
+                alt=""
+                className="w-[100%] h-full  object-contain rounded-[20px] "
+              />
+            </a>
+          </div>
+          <div>
+            <h3 className=" text-white text-[20px] font-[700]  tracking-wider ml-3 mt-3">
+              {name}
+            </h3>
+            <p className=" text-slate-300 text-[15px] font-[400] mb-3 tracking-wider ml-3 mt-3">
+              {description}
+            </p>
+          </div>
 
-          <div className="flex gap-2 items-center flex-wrap">
+          <div className="flex gap-x-2 items-center flex-wrap sm:absolute bottom-0 my-5 mx-7">
             {tags.map((e) => {
               return (
                 <p key={e.name} className={e.color}>

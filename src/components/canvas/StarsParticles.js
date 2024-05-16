@@ -11,7 +11,7 @@ export const StarsParticles = {
     opacity: 1
   },
   backgroundMask: {
-    composite: "destination-out",
+    composite: "destination-out", 
     cover: {
       color: {
         value: "#fff"
