@@ -2,7 +2,7 @@ import close from "../assets/close.svg";
 import menu from "../assets/menu.svg";
 import bg1 from "../assets/bg1.png";
 import github2 from "../assets/github.png";
-import resume from "../assets/Devendra Dhakad CV.pdf";
+import resume from "../assets/Devendra_Dhakad_Resume.pdf";
 import web from "../assets/web.png";
 import frontend from "../assets/frontend.png";
 import backend from "../assets/backend.png";
@@ -10,8 +10,8 @@ import boy from "../assets/boy-g29910d274_1280.png";
 import dev from "../assets/developer.png";
 import codsoft from "../assets/cod.png";
 import visitIcon from "../assets/visit-icon-copy.jpg";
-import ambuviansLogo from "../assets/ambuvians.png"
-import LilyportLogo from "../assets/LilyportLogo.png"
+import ambuviansLogo from "../assets/ambuvians.png";
+import LilyportLogo from "../assets/sasahyog_technologies_logo.jpeg";
 
 // social media and resume icon
 const linkedin =
@@ -131,16 +131,23 @@ export const experiences = [
     date: "01 January 2024 - 30 January 2024",
     points: [
       "Developing Healthcare Website using React.js, TypeScript, TailwindCss  and other related technologies.",
+      "Developed a fully responsive and animated website using React.js and Tailwind CSS.",
+      "Implemented interactive UI animations using Framer Motion to enhance user experience.",
+      "Collaborated with the design team to translate Figma designs into pixel-perfect web pages.",
+      "Ensured cross-device compatibility and layout optimization.",
     ],
   },
   {
     title: "Fullstack Developer - Internship",
-    company_name: "Lilyport",
+    company_name: "Sasahyog Technologies",
     icon: LilyportLogo,
     iconBg: "#3434eb",
-    date: "10 February 2024 - 30 May 2024",
+    date: "April 2024 - May 2025",
     points: [
-      "Developing Full Stack E-commerce Web application using Next.js, Typescript, Strapi and other related technologies.",
+      "Developed and maintained 5+ production-grade web applications using React.js, Next.js, Strapi.js, and Express.js.",
+      "Designed and integrated REST APIs using Strapi for seamless frontend-backend communication. ",
+      "Improved application performance through rendering optimization and efficient API handling. ",
+      "Built responsive, scalable UI systems aligned with modern product standards. ",
     ],
   },
 ];
